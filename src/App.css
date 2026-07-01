@@ -157,8 +157,10 @@
 .hero-avatar-container {
   position: absolute;
   z-index: 10;
-  width: clamp(160px, 32vw, 320px);
-  margin: 0 auto;
+  width: clamp(150px, 30vw, 290px);
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .hero-avatar {
   width: 100%;
