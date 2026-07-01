@@ -1,0 +1,176 @@
+/* =========================================================
+   EDITORIAL / BRUTALIST DESIGN SYSTEM — Muhammed Swalih
+   Inspired by Shourya Khanna's Graphic Portfolio Design
+   ========================================================= */
+
+:root {
+  /* Editorial Color Palette */
+  --bg: #FAF9F5; /* Warm paper texture background */
+  --bg-card: #FFFFFF;
+  --bg-secondary: #F3F1EB;
+  --text-primary: #121214;
+  --text-secondary: #4A4A50;
+  --text-muted: #8E8E96;
+  --border: #121214; /* Sharp black borders */
+  --border-thin: rgba(18, 18, 20, 0.1);
+  --accent: #121214; /* High contrast black/white */
+  --accent-glow: rgba(18, 18, 20, 0.05);
+
+  /* Project Pastel Colors (Matches screenshot style) */
+  --pastel-blue: #E0EFFF;
+  --pastel-beige: #FDF1DC;
+  --pastel-green: #E2F4E7;
+  --pastel-red: #FDE8E8;
+  --pastel-purple: #ECE9F7;
+
+  /* Typography */
+  --font-heading: 'Outfit', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  /* Radius (More angular/subtle for editorial look) */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-pill: 999px;
+
+  /* Spacing */
+  --container: 1200px;
+  --transition: 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+[data-theme='dark'] {
+  --bg: #0F0F11;
+  --bg-card: #17171A;
+  --bg-secondary: #1E1E22;
+  --text-primary: #F3F3F6;
+  --text-secondary: #A6A6B2;
+  --text-muted: #6E6E7A;
+  --border: #F3F3F6;
+  --border-thin: rgba(243, 243, 246, 0.15);
+  --accent: #F3F3F6;
+  --accent-glow: rgba(243, 243, 246, 0.1);
+
+  /* Project Darkened Pastels for readability */
+  --pastel-blue: #1E293B;
+  --pastel-beige: #2E251B;
+  --pastel-green: #142E1F;
+  --pastel-red: #2D1A1A;
+  --pastel-purple: #231E3D;
+}
+
+/* Reset & Base */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--bg);
+  color: var(--text-primary);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  transition: background 0.3s, color 0.3s;
+  overflow-x: hidden;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--text-primary);
+  font-weight: 800;
+}
+
+p {
+  color: var(--text-secondary);
+}
+
+a {
+  color: var(--text-primary);
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+/* Container */
+.container {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+
+/* Layout Utilities */
+section {
+  padding: 80px 0;
+}
+
+/* Buttons (Brutalist outline style) */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  font-family: var(--font-heading);
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border: 2px solid var(--border);
+  background: transparent;
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: all var(--transition);
+}
+
+.btn-primary {
+  background: var(--text-primary);
+  color: var(--bg);
+}
+
+.btn-primary:hover {
+  background: transparent;
+  color: var(--text-primary);
+  transform: translate(-4px, -4px);
+  box-shadow: 4px 4px 0 var(--border);
+}
+
+.btn-outline:hover {
+  background: var(--text-primary);
+  color: var(--bg);
+  transform: translate(-4px, -4px);
+  box-shadow: 4px 4px 0 var(--border);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--text-primary);
+  border: 2px solid var(--bg);
+}
+
+/* Selection */
+::selection {
+  background: var(--text-primary);
+  color: var(--bg);
+}
