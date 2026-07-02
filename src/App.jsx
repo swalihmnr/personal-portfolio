@@ -40,8 +40,8 @@ export default function App() {
           'Integrated Google OAuth, OTP-based verification, Cloudinary image management, and a flexible offer and coupon system.',
           'Designed the application following the MVC architecture pattern and optimized database queries using MongoDB aggregation pipelines.'
         ],
-        liveUrl: '#', // REPLACE with actual link if available
-        githubUrl: 'https://github.com/swalihmnr/casecart'
+        liveUrl: 'https://case-cart-swalihmnrs-projects.vercel.app/',
+        githubUrl: 'https://github.com/swalihmnr/case-cart'
       }
     },
     {
@@ -61,51 +61,92 @@ export default function App() {
           'Developing the platform using Node.js, Express.js, MongoDB, and modern web technologies with a strong focus on scalability, clean architecture, and real-world business workflows.'
         ],
         liveUrl: null,
-        githubUrl: 'https://github.com/swalihmnr' // REPLACE with actual repository link
+        githubUrl: 'https://github.com/swalihmnr/milk'
       }
     },
     {
       id: 3,
       num: '03',
-      title: 'Compiler',
-      desc: 'Language Interpreter',
+      title: 'Zero-G Compiler',
+      desc: 'Multi-Language IDE & Sandbox',
       colorClass: 'panel-green',
       mockup: 'editor',
       content: {
-        title: 'Custom Compiler / Interpreter',
-        subtitle: 'Parser and execution engine for a custom-designed language',
-        stack: ['JavaScript', 'AST', 'Lexical Analysis', 'Recursive Descent Parsing'],
+        title: 'Zero-G Compiler – Multi-Language IDE',
+        subtitle: 'Secure sandboxed code execution engine and native toolchain compiler',
+        stack: ['Node.js', 'Electron', 'Monaco Editor', 'vm2', 'Go', 'Rust', 'Express.js'],
         bullets: [
-          'Developed a custom compiler/interpreter capable of parsing and executing code written in a custom-designed language.',
-          'Implemented core compiler components such as lexical analysis (tokenization), syntax analysis (parsing), and code execution.',
-          'Gained hands-on experience with language design, abstract syntax trees (AST), error handling, and expression evaluation.'
+          'Developed a multi-language desktop IDE and execution engine providing secure JS sandboxing and local compilation for Python, Java, C/C++, Go, and Rust.',
+          'Implemented native toolchain compilation (GCC, G++, Java, Go, Rust) with automated execution tasks.',
+          'Built intelligent coding task parsing, auto-run execution, direct file system access, and packaged desktop application support using Electron Builder.'
         ],
         liveUrl: null,
-        githubUrl: 'https://github.com/swalihmnr' // REPLACE with actual repository link
+        githubUrl: 'https://github.com/swalihmnr/IDE-compailer'
       }
     },
     {
       id: 4,
       num: '04',
-      title: 'My Process',
-      desc: 'How I Build Applications',
+      title: 'Batch Progress',
+      desc: 'AI Assessment Platform',
       colorClass: 'panel-red',
       mockup: 'flow',
       content: {
-        title: 'Development Workflow & Philosophy',
-        subtitle: 'Outcome-focused, structured implementation path',
+        title: 'Batch Progress Tracker – Nova AI Platform',
+        subtitle: 'AI-enabled English proficiency and assessment dashboard',
+        stack: ['React', 'Firebase', 'Firebase Functions', 'OpenAI', 'Node.js', 'Tailwind CSS'],
         bullets: [
-          'Discovery & Planning: Research requirements, define database schemas, and outline key user/business workflows.',
-          'Architecture Design: Lay out the MVC or modular backend structure and design clean RESTful API contracts.',
-          'Incremental Build: Develop in features, ensuring each endpoint is tested with validation middleware.',
-          'Edge Case Testing: Run unit verification, perform database query analysis, and check response times.',
-          'Handoff & Support: Deliver clean, documented source code, ready for easy deployment (Docker/Vercel/Render).'
-        ]
+          'Built the English Mastery Roadmap and Nova AI features — implemented dynamic roadmap UI components and 5-stage placement exam flows (text + real-time voice/video).',
+          'Integrated OpenAI backend via secure Firebase Cloud Functions with a custom API-key rotation mechanism to prevent usage limits.',
+          'Eliminated security risks by removing hardcoded credentials and migrating to production-ready secure environment variable storage.'
+        ],
+        liveUrl: null,
+        githubUrl: 'https://github.com/swalihmnr/batch-progress-tracker'
       }
     },
     {
       id: 5,
       num: '05',
+      title: 'Zomato Clone',
+      desc: 'Frontend UI Clone',
+      colorClass: 'panel-yellow',
+      mockup: 'phone',
+      content: {
+        title: 'Zomato UI Clone – Frontend Replication',
+        subtitle: 'Pixel-perfect, highly responsive frontend clone of Zomato',
+        stack: ['HTML5', 'CSS3', 'JavaScript', 'Flexbox', 'CSS Grid', 'GitHub Pages'],
+        bullets: [
+          'Developed a pixel-perfect frontend clone of the Zomato home page and restaurant search interface.',
+          'Implemented advanced CSS Grid and Flexbox layouts for seamless responsiveness across mobile, tablet, and desktop breakpoints.',
+          'Optimized asset delivery and deployed static files cleanly to GitHub Pages for instant viewing.'
+        ],
+        liveUrl: 'https://swalihmnr.github.io/zomato/',
+        githubUrl: 'https://github.com/swalihmnr/zomato'
+      }
+    },
+    {
+      id: 6,
+      num: '06',
+      title: 'Henna Organic',
+      desc: 'Static Landing Page',
+      colorClass: 'panel-orange',
+      mockup: 'dashboard',
+      content: {
+        title: 'Henna Organic – Static Brand Landing Page',
+        subtitle: 'Elegant and lightweight static brand landing page',
+        stack: ['HTML5', 'CSS3', 'JavaScript', 'Responsive Design', 'GitHub Pages'],
+        bullets: [
+          'Designed and coded an elegant, lightweight static product landing page for an organic henna brand.',
+          'Focused heavily on clean visual hierarchy, customized botanical illustrations, and fast load times with optimized assets.',
+          'Fully responsive implementation deployed to GitHub Pages.'
+        ],
+        liveUrl: 'https://swalihmnr.github.io/henna-organic/',
+        githubUrl: 'https://github.com/swalihmnr/henna-organic'
+      }
+    },
+    {
+      id: 7,
+      num: '07',
       title: 'Let\'s Talk',
       desc: 'Get in Touch',
       colorClass: 'panel-purple',

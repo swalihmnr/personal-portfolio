@@ -22,6 +22,8 @@
   --pastel-green: #E2F4E7;
   --pastel-red: #FDE8E8;
   --pastel-purple: #ECE9F7;
+  --pastel-yellow: #FEF9C3;
+  --pastel-orange: #FFEDD5;
 
   /* Typography */
   --font-heading: 'Outfit', sans-serif;
@@ -56,6 +58,8 @@
   --pastel-green: #142E1F;
   --pastel-red: #2D1A1A;
   --pastel-purple: #231E3D;
+  --pastel-yellow: #3A3215;
+  --pastel-orange: #352516;
 }
 
 /* Reset & Base */

@@ -17,9 +17,8 @@ const PROJECTS = [
       'Integrated Google OAuth, OTP-based email verification, Cloudinary image uploads, and Razorpay payment gateway.',
       'Optimized data-heavy pages using MongoDB aggregation pipelines; implemented MVC architecture for maintainability at scale.',
     ],
-    // REPLACE: Set real live and GitHub URLs below
-    liveUrl: 'https://casecart.example.com',
-    githubUrl: 'https://github.com/swalihmnr/casecart',
+    liveUrl: 'https://case-cart-swalihmnrs-projects.vercel.app/',
+    githubUrl: 'https://github.com/swalihmnr/case-cart',
   },
   {
     id: 'dairyo',
@@ -38,7 +37,7 @@ const PROJECTS = [
     ],
     liveUrl: null,
     // REPLACE: Set real GitHub URL below
-    githubUrl: 'https://github.com/swalihmnr/dairyo',
+    githubUrl: 'https://github.com/swalihmnr/milk',
   },
   {
     id: 'compiler',
@@ -47,18 +46,71 @@ const PROJECTS = [
     statusLabel: '✔ Completed',
     emoji: '⚙️',
     bannerBg: 'linear-gradient(135deg,#f59e0b22,#ef444422)',
-    title: 'Custom Compiler / Interpreter',
-    tagline: 'Built a working compiler pipeline for a custom programming language',
-    stack: ['JavaScript', 'AST', 'Lexer', 'Parser', 'Interpreter'],
+    title: 'Zero-G Compiler',
+    tagline: 'Multi-language IDE and secure sandboxed code execution engine',
+    stack: ['Node.js', 'Electron', 'Monaco Editor', 'vm2', 'Go', 'Rust', 'Express.js'],
     bullets: [
-      'Implemented a full compiler pipeline: lexical analysis (tokenizer), syntax analysis (recursive descent parser), and tree-walk interpreter.',
-      'Designed and parsed abstract syntax trees (AST) to represent expressions, statements, and control flow.',
-      'Built custom error handling with line-level diagnostics — a hands-on deep dive into how languages work under the hood.',
+      'Developed a multi-language desktop IDE and execution engine providing secure JS sandboxing and local compilation for Python, Java, C/C++, Go, and Rust.',
+      'Implemented native toolchain compilation (GCC, G++, Java, Go, Rust) with automated execution tasks.',
+      'Built intelligent coding task parsing, auto-run execution, direct file system access, and packaged desktop application support using Electron Builder.',
     ],
     liveUrl: null,
-    // REPLACE: Set real GitHub URL below
-    githubUrl: 'https://github.com/swalihmnr/custom-compiler',
+    githubUrl: 'https://github.com/swalihmnr/IDE-compailer',
   },
+  {
+    id: 'batchtracker',
+    featured: false,
+    status: 'completed',
+    statusLabel: '✔ Completed',
+    emoji: '📈',
+    bannerBg: 'linear-gradient(135deg,#3b82f622,#1d4ed822)',
+    title: 'Batch Progress Tracker (Nova AI)',
+    tagline: 'AI-enabled English proficiency and assessment dashboard',
+    stack: ['React', 'Firebase', 'Firebase Functions', 'OpenAI', 'Node.js', 'Tailwind CSS'],
+    bullets: [
+      'Built the English Mastery Roadmap and Nova AI features — implemented dynamic roadmap UI components and 5-stage placement exam flows (text + real-time voice/video).',
+      'Integrated OpenAI backend via secure Firebase Cloud Functions with a custom API-key rotation mechanism to prevent usage limits.',
+      'Eliminated security risks by removing hardcoded credentials and migrating to production-ready secure environment variable storage.',
+    ],
+    liveUrl: null,
+    githubUrl: 'https://github.com/swalihmnr/batch-progress-tracker',
+  },
+  {
+    id: 'zomato',
+    featured: false,
+    status: 'completed',
+    statusLabel: '✔ Completed',
+    emoji: '🍕',
+    bannerBg: 'linear-gradient(135deg,#ef444422,#b91c1c22)',
+    title: 'Zomato UI Clone',
+    tagline: 'Pixel-perfect, highly responsive frontend clone of Zomato',
+    stack: ['HTML5', 'CSS3', 'JavaScript', 'Flexbox', 'CSS Grid', 'GitHub Pages'],
+    bullets: [
+      'Developed a pixel-perfect frontend clone of the Zomato home page and restaurant search interface.',
+      'Implemented advanced CSS Grid and Flexbox layouts for seamless responsiveness across mobile, tablet, and desktop breakpoints.',
+      'Optimized asset delivery and deployed static files cleanly to GitHub Pages for instant viewing.'
+    ],
+    liveUrl: 'https://swalihmnr.github.io/zomato/',
+    githubUrl: 'https://github.com/swalihmnr/zomato'
+  },
+  {
+    id: 'henna',
+    featured: false,
+    status: 'completed',
+    statusLabel: '✔ Completed',
+    emoji: '🌿',
+    bannerBg: 'linear-gradient(135deg,#10b98122,#04785722)',
+    title: 'Henna Organic Website',
+    tagline: 'Elegant and lightweight static brand landing page',
+    stack: ['HTML5', 'CSS3', 'JavaScript', 'Responsive Design', 'GitHub Pages'],
+    bullets: [
+      'Designed and coded an elegant, lightweight static product landing page for an organic henna brand.',
+      'Focused heavily on clean visual hierarchy, customized botanical illustrations, and fast load times with optimized assets.',
+      'Fully responsive implementation deployed to GitHub Pages.'
+    ],
+    liveUrl: 'https://swalihmnr.github.io/henna-organic/',
+    githubUrl: 'https://github.com/swalihmnr/henna-organic'
+  }
 ];
 
 function ProjectCard({ project }) {

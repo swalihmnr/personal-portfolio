@@ -383,9 +383,14 @@
   position: relative;
   z-index: 2;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 20px;
   margin-top: 40px;
+}
+@media (min-width: 1025px) {
+  .content-grid {
+    grid-template-columns: repeat(7, 1fr);
+  }
 }
 @media (max-width: 900px) {
   .content-grid {
@@ -423,6 +428,8 @@
 .panel-green { background: var(--pastel-green); }
 .panel-red { background: var(--pastel-red); }
 .panel-purple { background: var(--pastel-purple); }
+.panel-yellow { background: var(--pastel-yellow); }
+.panel-orange { background: var(--pastel-orange); }
 
 .panel-num {
   font-family: var(--font-heading);
