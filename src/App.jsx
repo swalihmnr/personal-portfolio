@@ -275,6 +275,10 @@ export default function App() {
                     <h4>Language Parsers & Interpreters</h4>
                     <p>Hands-on compiler architecture, lexical tokenization, and syntax tree execution in JavaScript.</p>
                   </li>
+                  <li className="bio-list-item">
+                    <h4>Algorithms & Data Structures</h4>
+                    <p>Implemented custom trees, graphs, heaps, and sorting/searching solutions to optimize data processing pipelines.</p>
+                  </li>
                 </ul>
               </div>
 
@@ -288,10 +292,11 @@ export default function App() {
                   <span className="tech-chip">MongoDB</span>
                   <span className="tech-chip">Tailwind CSS</span>
                   <span className="tech-chip">TypeScript</span>
-                  <span className="tech-chip">EJS</span>
+                  <span className="tech-chip">DSA</span>
+                  <span className="tech-chip">Algorithms</span>
+                  <span className="tech-chip">System Design</span>
                   <span className="tech-chip">Git / GitHub</span>
                   <span className="tech-chip">REST API</span>
-                  <span className="tech-chip">System Design</span>
                 </div>
 
                 <h4 className="bio-col-title">Contact Info</h4>
