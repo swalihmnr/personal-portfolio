@@ -65,7 +65,7 @@ const PROJECTS = [
     emoji: '📈',
     bannerBg: 'linear-gradient(135deg,#3b82f622,#1d4ed822)',
     title: 'Batch Progress Tracker (Nova AI)',
-    tagline: 'AI-enabled English proficiency and assessment dashboard',
+    tagline: 'Open-Source Contribution — Built the English Mastery Roadmap & Nova AI',
     stack: ['React', 'Firebase', 'Firebase Functions', 'OpenAI', 'Node.js', 'Tailwind CSS'],
     bullets: [
       'Built the English Mastery Roadmap and Nova AI features — implemented dynamic roadmap UI components and 5-stage placement exam flows (text + real-time voice/video).',

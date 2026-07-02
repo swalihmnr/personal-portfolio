@@ -93,7 +93,7 @@ export default function App() {
       mockup: 'flow',
       content: {
         title: 'Batch Progress Tracker – Nova AI Platform',
-        subtitle: 'AI-enabled English proficiency and assessment dashboard',
+        subtitle: 'Open-Source Contribution: Built the English Mastery Roadmap & Nova AI features',
         stack: ['React', 'Firebase', 'Firebase Functions', 'OpenAI', 'Node.js', 'Tailwind CSS'],
         bullets: [
           'Built the English Mastery Roadmap and Nova AI features — implemented dynamic roadmap UI components and 5-stage placement exam flows (text + real-time voice/video).',
