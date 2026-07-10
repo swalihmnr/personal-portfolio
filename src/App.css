@@ -63,7 +63,7 @@
 }
 .hero-portfolio-title {
   font-family: 'Syne', 'Outfit', sans-serif;
-  font-size: clamp(3.5rem, 14vw, 10rem);
+  font-size: clamp(2rem, 11vw, 10rem);
   font-weight: 800;
   line-height: 0.85;
   color: var(--text-primary);
@@ -371,7 +371,7 @@
   left: 50%;
   transform: translateX(-50%);
   font-family: var(--font-heading);
-  font-size: clamp(6rem, 20vw, 15rem);
+  font-size: clamp(3rem, 16vw, 15rem);
   font-weight: 900;
   text-transform: uppercase;
   color: transparent;
