@@ -37,6 +37,7 @@ const SKILLS = [
     skills: [
       { name: 'Git & GitHub', icon: '🐙' },
       { name: 'Postman', icon: '📮' },
+      { name: 'AWS (EC2)', icon: '☁️' },
       { name: 'Cloudinary', icon: '☁️' },
       { name: 'Vercel', icon: '▲' },
       { name: 'Render', icon: '🚀' },

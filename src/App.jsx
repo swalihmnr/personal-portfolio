@@ -32,13 +32,14 @@ export default function App() {
       content: {
         title: 'CaseCart – Full-Stack E-commerce Platform',
         subtitle: 'Product catalog, wishlist, user auth, checkout & orders',
-        stack: ['Node.js', 'Express.js', 'MongoDB', 'EJS', 'Tailwind CSS', 'Razorpay', 'Cloudinary'],
+        stack: ['Node.js', 'Express.js', 'MongoDB', 'EJS', 'Tailwind CSS', 'Razorpay', 'Cloudinary', 'AWS EC2', 'Nginx', 'PM2'],
         bullets: [
           'Developed a full-featured e-commerce platform for mobile phone cases using Node.js, Express.js, MongoDB, EJS, and Tailwind CSS.',
           'Implemented core features including user authentication, product catalog management, cart, wishlist, checkout, order management, and secure session handling.',
           'Built an admin dashboard to manage products, categories, customers, offers, coupons, and orders with advanced filtering and pagination.',
           'Integrated Google OAuth, OTP-based verification, Cloudinary image management, and a flexible offer and coupon system.',
-          'Designed the application following the MVC architecture pattern and optimized database queries using MongoDB aggregation pipelines.'
+          'Designed the application following the MVC architecture pattern and optimized database queries using MongoDB aggregation pipelines.',
+          'Hosted and deployed the application on an AWS EC2 instance using Nginx as a reverse proxy, PM2 for process management, and custom domain setup.'
         ],
         liveUrl: 'https://case-cart-swalihmnrs-projects.vercel.app/',
         githubUrl: 'https://github.com/swalihmnr/case-cart'
@@ -292,6 +293,7 @@ export default function App() {
                   <span className="tech-chip">MongoDB</span>
                   <span className="tech-chip">Tailwind CSS</span>
                   <span className="tech-chip">TypeScript</span>
+                  <span className="tech-chip">AWS EC2</span>
                   <span className="tech-chip">DSA</span>
                   <span className="tech-chip">Algorithms</span>
                   <span className="tech-chip">System Design</span>
